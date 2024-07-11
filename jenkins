@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-             git 'https://github.com/surajmurkute/Java-Springboot.git'
+             git 'https://github.com/surajmurkute7/Java-Springboot.git'
             }
         }
          stage('compile') {
